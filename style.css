@@ -16,8 +16,8 @@ html, body {
   background-color: black;
   color: white;
   overflow: hidden;
-  text-transform: uppercase;
-}
+/*  text-transform: uppercase;
+*/}
 
 .block {
 position: relative;
