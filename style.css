@@ -8,6 +8,11 @@ font-family: spectrum outline;
 src: url("fonts/Spectrum-Outline v1.0.otf") format("opentype");
 }
 
+@font-face {
+font-family: neue metana;
+src: url("fonts/NeueMetana-Regular.otf") format("opentype");
+}
+
 html, body {
   margin : 0;
   padding: 0;
@@ -51,7 +56,7 @@ margin: 10px 300px 20px 80px;
   display: flex;
   align-items: center;
   padding: 0px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .menu ul {
   display: inline;
@@ -62,7 +67,7 @@ margin: 10px 300px 20px 80px;
 .menu ul > a {
   text-decoration: none;
   color: white;
-  font-family: spectrum solid;
+  font-family: neue metana;
 }
 
 h1 {
