@@ -1,0 +1,76 @@
+@font-face {
+font-family: spectrum solid;
+src: url("fonts/Spectrum-Solid v1.0.otf") format("opentype");
+}
+
+@font-face {
+font-family: spectrum outline;
+src: url("fonts/Spectrum-Outline v1.0.otf") format("opentype");
+}
+
+html, body {
+  margin : 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.block {
+position: relative;
+width: 580px;
+height: 460px;
+margin: 10px 300px 20px 80px;
+}
+
+.container {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+h1 {
+  position: absolute;
+  font-family: "spectrum solid", "helvetica", "arial";
+  font-weight: lighter;
+  font-size: 64px;
+}
+
+.block-1 {
+  background: url(images/hs_1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-2 {
+  background: url(images/hs_2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-3 {
+  background: url(images/hs_3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-4 {
+  background: url(images/hs_4.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-5 {
+  background: url(images/hs_5.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+  bottom: 0;
+  right: -60px;
+}
+
+.block-2 h1,
+.block-4 h1 {
+  right: -60px;
+}
