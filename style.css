@@ -16,8 +16,7 @@ html, body {
   background-color: black;
   color: white;
   overflow: hidden;
-/*  text-transform: uppercase;
-*/}
+}
 
 .block {
 position: relative;
@@ -27,8 +26,43 @@ margin: 10px 300px 20px 80px;
 }
 
 .container {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 200px;
+}
+
+.top-container{
+  display: flex;
+  float-direction: row;
+  justify-content: space-between;
+  list-style-type:none;
+  height: 100px;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.menu ul {
+  display: inline;
+  text-align: center;
+  align-content: center;
+}
+
+.menu ul > a {
+  text-decoration: none;
+  color: white;
+  font-family: spectrum solid;
 }
 
 h1 {
